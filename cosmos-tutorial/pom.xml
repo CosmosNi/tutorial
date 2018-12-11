@@ -11,6 +11,7 @@
     <modules>
         <module>comsos-array</module>
         <module>cosmos-arithmetic</module>
+        <module>cosmos-juc</module>
     </modules>
 
 

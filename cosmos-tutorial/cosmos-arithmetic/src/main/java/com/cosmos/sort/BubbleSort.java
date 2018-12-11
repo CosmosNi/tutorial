@@ -48,7 +48,7 @@ public class BubbleSort {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[]{1, 5, 6, 8, 9, 4, 3};
+        int[] array = new int[]{1, 5, 6, 8, 9, 4, 3,3,3,4,5,6};
         System.out.println("排序前：" + Arrays.toString(array));
         sort(array, true);
         System.out.println("升序后：" + Arrays.toString(array));
