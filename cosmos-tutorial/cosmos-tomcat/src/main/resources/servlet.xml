@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servlets>
+    <servlet id="index">
+        <url>/index</url>
+        <className>com.cosmos.servlet.IndexServlet</className>
+    </servlet>
+    <servlet id="hello">
+        <url>/hello</url>
+        <className>com.cosmos.servlet.HelloWorldServlet</className>
+    </servlet>
+</servlets>
