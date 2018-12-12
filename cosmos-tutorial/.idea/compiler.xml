@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -14,5 +13,14 @@
         <module name="cosmos-tomcat" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comsos-array" target="1.5" />
+      <module name="cosmos-arithmetic" target="1.5" />
+      <module name="cosmos-juc" target="1.5" />
+      <module name="cosmos-mybatis" target="1.5" />
+      <module name="cosmos-mybatis-plus" target="1.5" />
+      <module name="cosmos-tomcat" target="1.5" />
+      <module name="cosmos-tutorial" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
