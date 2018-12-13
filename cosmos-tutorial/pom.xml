@@ -14,6 +14,8 @@
         <module>cosmos-juc</module>
         <module>cosmos-mybatis</module>
         <module>cosmos-tomcat</module>
+        <module>cosmos-selenium</module>
+        <module>cosmos-jvm</module>
     </modules>
 
 
