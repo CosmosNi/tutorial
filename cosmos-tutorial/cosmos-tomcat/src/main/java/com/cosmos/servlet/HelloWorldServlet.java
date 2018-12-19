@@ -14,10 +14,12 @@ import java.io.OutputStream;
  * @Modified By：
  */
 public class HelloWorldServlet extends Servlet {
+    @Override
     public void doGet(Request request, Response response) throws IOException {
         this.doPost(request, response);
     }
 
+    @Override
     public void doPost(Request request, Response response) throws IOException {
         OutputStream outputStream = response.outputStream;
         String res = response.getHeadType() + "hey，guy！hello world！";

@@ -16,6 +16,9 @@
         <module>cosmos-tomcat</module>
         <module>cosmos-selenium</module>
         <module>cosmos-jvm</module>
+        <module>cosmos-designmode</module>
+        <module>cosmos-springcloud</module>
+        <module>cosmos-mvc</module>
     </modules>
 
 

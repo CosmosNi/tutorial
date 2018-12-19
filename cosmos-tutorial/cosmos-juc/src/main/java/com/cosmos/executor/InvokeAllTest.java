@@ -37,6 +37,7 @@ public class InvokeAllTest {
             return people + "任务异常结束";
         }
 
+        @Override
         public String call() throws Exception {
             Random r = new Random();
             long time = (r.nextInt(10) + 1) * 1000;
