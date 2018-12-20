@@ -20,18 +20,18 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="comsos-array" target="1.5" />
-      <module name="cosmos-arithmetic" target="1.5" />
-      <module name="cosmos-designmode" target="1.5" />
+      <module name="comsos-array" target="1.8" />
+      <module name="cosmos-arithmetic" target="1.8" />
+      <module name="cosmos-designmode" target="1.8" />
       <module name="cosmos-juc" target="6" />
-      <module name="cosmos-jvm" target="1.5" />
+      <module name="cosmos-jvm" target="1.8" />
       <module name="cosmos-mvc" target="1.8" />
-      <module name="cosmos-mybatis" target="1.5" />
-      <module name="cosmos-mybatis-plus" target="1.5" />
-      <module name="cosmos-selenium" target="1.5" />
-      <module name="cosmos-springcloud" target="1.5" />
-      <module name="cosmos-tomcat" target="1.5" />
-      <module name="cosmos-tutorial" target="1.5" />
+      <module name="cosmos-mybatis" target="1.8" />
+      <module name="cosmos-mybatis-plus" target="1.8" />
+      <module name="cosmos-selenium" target="1.8" />
+      <module name="cosmos-springcloud" target="1.8" />
+      <module name="cosmos-tomcat" target="1.8" />
+      <module name="cosmos-tutorial" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

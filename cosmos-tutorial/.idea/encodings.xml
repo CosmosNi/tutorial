@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/comsos-array" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-arithmetic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-designmode" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-juc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-jvm" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cosmos-mvc" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cosmos-mybatis/cosmos-mybatis-plus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-selenium" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-springcloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cosmos-tomcat" charset="UTF-8" />
   </component>
 </project>

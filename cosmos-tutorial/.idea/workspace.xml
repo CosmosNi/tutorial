@@ -2,98 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c8310e5-3162-46db-b566-056a45637a3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/Dough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/DoughIngredientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/DoughIngredientFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/NYPizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/NYThickCrustPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/NYThinCrustPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/PizzaDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/PizzaStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/ThickCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/ThinCrustDough.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/DefalutShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/resources/designMode" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/resources/summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/CancelWithFuture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/CancelWithJoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/log/ExecutorServiceLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/log/LogService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/log/LogWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/CancellableImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/CancellableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/CancellingExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/SocketUsingTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Autowire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/RequestMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/RequestParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cosmos-springcloud/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/NonRecursiveMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/RecursiveMergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-arithmetic/src/main/resources/summary.doc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Beverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/BeverageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/BlueMountainCoffee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/CondimentDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Espressor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Mocha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/SemiSweet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/CompositeIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/NullIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/Waitress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/AdditionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/BasicGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/DivisionStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/MultiplicationStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/SubtrationStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/META-INF/cosmos-arithmetic.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/MergeSort/Chapter01.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/MergeSort/Chapter01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancell/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/PrimeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/executor/InvokeAllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/executor/InvokeAllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/src/main/resources/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/src/main/resources/summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/META-INF/cosmos-juc.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/CyclicBarrier/CellularAutomata.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/CyclicBarrier/CellularAutomata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/CyclicBarrier/CyclicBarrierTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/CyclicBarrier/CyclicBarrierTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/CyclicBarrier/CyclicBarrierTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/CyclicBarrier/CyclicBarrierTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/Timer/OutOfTime$ThrowTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/Timer/OutOfTime$ThrowTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/Timer/OutOfTime.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/Timer/OutOfTime.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/Computable.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/Computable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/ExpensiveFunction.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/ExpensiveFunction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/Memoizer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/Memoizer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/Memoizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/Memoizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/MemoizerConcurrent.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/MemoizerConcurrent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/MemoizerFutureTask$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/MemoizerFutureTask$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/MemoizerFutureTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cache/MemoizerFutureTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/cancell/PrimeGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/CompletionServiceTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/CompletionServiceTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/CompletionServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/CompletionServiceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/InvokeAllTest$CosmosTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/InvokeAllTest$CosmosTask.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/InvokeAllTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/executor/InvokeAllTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/CountDownLatchTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/CountDownLatchTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/CountDownLatchTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/CountDownLatchTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/CountDownLatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/CountDownLatchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/FutureTaskTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/FutureTaskTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/FutureTaskTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/FutureTaskTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/FutureTaskTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/latch/FutureTaskTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/semphore/BoundHashSet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/semphore/BoundHashSet$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/semphore/BoundHashSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/com/cosmos/semphore/BoundHashSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-juc/target/classes/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-juc/target/classes/summary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-selenium/target/classes/com/cosmos/selenium/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-selenium/target/classes/com/cosmos/selenium/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/servlet/HelloWorldServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/servlet/HelloWorldServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-tomcat/target/classes/META-INF/cosmos-tomcat.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cosmos-tomcat/target/classes/com/cosmos/servlet/HelloWorldServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-tomcat/target/classes/com/cosmos/servlet/HelloWorldServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/array/Array.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/arraylist/SimpleArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/linklist/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/linklist/NodeIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/linklist/SimpleArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/linklist/SimpleLinkList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/queue/ArrayQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/queue/ArrayQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comsos-array/target/classes/com/cosmos/array/stack/SimpleStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/MergeSort/Chapter01.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/MergeSort/Chapter01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-arithmetic/target/classes/com/cosmos/sort/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/Dough.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/Dough.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/DoughIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/DoughIngredientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/DoughIngredientFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/DoughIngredientFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/NYPizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/NYPizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/NYThickCrustPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/NYThickCrustPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/NYThinCrustPizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/NYThinCrustPizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/Pizza.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/Pizza.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/PizzaDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/PizzaStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/ThickCrustDough.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThickCrustDough.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/ThinCrustDough.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThinCrustDough.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/DefalutShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/DefalutShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ShapeDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ShapeFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ShapeFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cosmos-mvc/target/classes/com/cosmos/mvc/servlet/DispatcherServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/cosmos-mvc/target/classes/com/cosmos/mvc/servlet/DispatcherServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/controller/ConfigController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/entity/Config.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/mapper/ConfigMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/service/IConfigService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/service/impl/ConfigServiceImpl.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/comsos-array/target/" />
     <ignored path="$PROJECT_DIR$/cosmos-mybatis/target/" />
@@ -115,102 +87,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/RecursiveMergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/NonRecursiveMergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java">
+        <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="247" column="44" lean-forward="true" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
+            <state relative-caret-position="169">
+              <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1358#1359#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletResponse.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/juli/AsyncFileHandler.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/juli/OneLineFormatter.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="72" selection-start-line="72" selection-end-line="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/tomcat/CosmosTomcat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="148">
+              <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#5027#5028#0" expanded="true" />
+                <element signature="e#5098#5099#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestServiceImpl.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/DualPivotQuicksort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="698">
+              <caret line="536" column="46" lean-forward="true" selection-start-line="536" selection-start-column="46" selection-end-line="536" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestService.java">
+        <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="-8">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThinCrustDough.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThickCrustDough.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -237,6 +200,7 @@
       <find>instanceMaps</find>
       <find>类名</find>
       <find>将bean注入到类中</find>
+      <find>读取配置文件</find>
       <find>寻找处理</find>
     </findStrings>
     <dirStrings>
@@ -251,45 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/executor/InvokeAllTest.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/SocketUsingTask.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/Test2.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/Test.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/CancellingExecutor.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/newTaskFor/CancellableImpl.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/resources/summary.txt" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/log/LogWriter.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/log/LogService.java" />
-        <option value="$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cancel/log/ExecutorServiceLog.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/resources/summary.txt" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/resources/designMode" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/DoughIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/NYFatCrustPizza.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/DoughIngredientFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/NYPizzaStore.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/Dough.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ThinCrustDough.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/FatCrustDough.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/Reflact.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ThickCrustDough.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/NYThickCrustPizza.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/NYThinCrustPizza.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/PizzaStore.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/Pizzza.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/car/Car.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/PizzaDriver.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/pizza/PizzaDriver.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Shape.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Circle.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Square.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/DefalutShape.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactory.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeDriver.java" />
-        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/People.java" />
-        <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Autowire.java" />
-        <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Controller.java" />
-        <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Service.java" />
         <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/RequestMapping.java" />
         <option value="$PROJECT_DIR$/cosmos-mvc/src/main/resources/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/cosmos-mvc/src/main/resources/application.properties" />
@@ -302,6 +227,45 @@
         <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestServiceImpl.java" />
         <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/controller/TestController.java" />
         <option value="$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Strategy.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/AddStrategy.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/AdditionStrategy.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/MultiplicationStrategy.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/DivisionStrategy.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/People.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/BasicGenerator.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/SubtrationStrategy.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Application.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuCompent.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/NullIterator.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuComponent.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/CompositeIterator.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/Waitress.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuItem.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuDriver.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/Menu.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/Beverage.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Espressor.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Beverage.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/BlueMountainCoffee.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/CondimentDecorator.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Mocha.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/SemiSweet.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/BeverageDriver.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Espressor.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ShapeDriver.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThinCrustDough.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThickCrustDough.java" />
+        <option value="$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaDriver.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/MergeSort.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/RecMergeSort.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/NonRecursiveMergeSort.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/RecursiveMergeSort.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/Patition.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/Test.java" />
+        <option value="$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/QuickSort.java" />
       </list>
     </option>
   </component>
@@ -347,91 +311,37 @@
             <path>
               <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="cosmos-arithmetic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="cosmos-arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="cosmos-arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="cosmos-arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="cosmos-arithmetic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="cosmos-mybatis-plus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cosmos-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cosmos-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,7 +354,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545208341286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545294544583" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cosmos-mvc/target/cosmos.war" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -455,21 +365,22 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.cosmos.mvc.service" />
-      <recent name="com.cosmos.design.factory.shape" />
-      <recent name="com.cosmos.design.factory" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\project\demo\Tutorial\cosmos-tutorial\cosmos-mvc\src\main\webapp" />
+      <recent name="D:\project\project\demo\Tutorial\cosmos-tutorial\cosmos-jvm\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\project\project\demo\Tutorial\cosmos-tutorial\cosmos-selenium\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cosmos.design.factory.abstractFactory" />
       <recent name="com.cosmos.design.factory" />
       <recent name="com.cosmos.selenium" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\project\project\demo\Tutorial\cosmos-tutorial\cosmos-mvc\src\main\webapp" />
-      <recent name="D:\project\project\demo\Tutorial\cosmos-tutorial\cosmos-jvm\src\main\resources" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.cosmos.mvc.service" />
+      <recent name="com.cosmos.design.factory.shape" />
+      <recent name="com.cosmos.design.factory" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -484,13 +395,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat">
-    <configuration name="CompletionServiceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cosmos.executor.CompletionServiceTest" />
-      <module name="cosmos-juc" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="NonRecursiveMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cosmos.sort.mergesort.NonRecursiveMergeSort" />
+      <module name="cosmos-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cosmos.executor.*" />
+          <option name="PATTERN" value="com.cosmos.sort.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -498,12 +409,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExecutorServiceLog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cosmos.cancel.log.ExecutorServiceLog" />
-      <module name="cosmos-juc" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cosmos.sort.QuickSort" />
+      <module name="cosmos-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cosmos.cancel.log.*" />
+          <option name="PATTERN" value="com.cosmos.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -511,12 +422,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PizzaDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cosmos.design.factory.pizza.PizzaDriver" />
-      <module name="cosmos-designmode" />
+    <configuration name="RecMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cosmos.sort.mergesort.RecMergeSort" />
+      <module name="cosmos-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cosmos.design.factory.pizza.*" />
+          <option name="PATTERN" value="com.cosmos.sort.mergesort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -524,12 +435,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cosmos.design.factory.shape.ShapeDriver" />
-      <module name="cosmos-designmode" />
+    <configuration name="RecursiveMergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cosmos.sort.mergesort.RecursiveMergeSort" />
+      <module name="cosmos-arithmetic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cosmos.design.factory.shape.*" />
+          <option name="PATTERN" value="com.cosmos.sort.mergesort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cosmos.sort.Test" />
+      <module name="cosmos-arithmetic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cosmos.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -634,19 +558,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CompletionServiceTest" />
-      <item itemvalue="Application.ExecutorServiceLog" />
-      <item itemvalue="Application.PizzaDriver" />
-      <item itemvalue="Application.ShapeDriver" />
       <item itemvalue="Maven.cosmos-mvc [clean,install]" />
       <item itemvalue="Tomcat Server.tomcat" />
+      <item itemvalue="Application.RecursiveMergeSort" />
+      <item itemvalue="Application.RecMergeSort" />
+      <item itemvalue="Application.NonRecursiveMergeSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompletionServiceTest" />
-        <item itemvalue="Application.ShapeDriver" />
-        <item itemvalue="Application.PizzaDriver" />
-        <item itemvalue="Application.ExecutorServiceLog" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.NonRecursiveMergeSort" />
+        <item itemvalue="Application.RecursiveMergeSort" />
+        <item itemvalue="Application.RecMergeSort" />
       </list>
     </recent_temporary>
   </component>
@@ -672,18 +598,20 @@
       <workItem from="1545118410630" duration="1414000" />
       <workItem from="1545144700823" duration="621000" />
       <workItem from="1545178811333" duration="22000000" />
-      <workItem from="1545210067423" duration="3336000" />
+      <workItem from="1545210067423" duration="7057000" />
+      <workItem from="1545227937384" duration="215000" />
+      <workItem from="1545265205446" duration="19837000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67925000" />
+    <option name="totallyTimeSpent" value="91698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24583964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -691,10 +619,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38134205" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31423897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -708,6 +635,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32405892" />
       <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.3289689" />
+      <window_info anchor="bottom" id="Application Servers" order="16" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -735,346 +663,15 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java</url>
-          <line>154</line>
+          <url>file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/QuickSort.java</url>
+          <line>11</line>
           <properties />
-          <option name="timeStamp" value="2" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/People.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/executor/CompletionServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/CyclicBarrier/CyclicBarrierTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/CyclicBarrier/CellularAutomata.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/cache/Memoizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/ShapeDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/shape/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-juc/src/main/java/com/cosmos/semphore/BoundHashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1027">
-          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc.java" />
-    <entry file="file://$PROJECT_DIR$/pw2.txt" />
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/resources/servlet.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/http/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="70" column="11" selection-start-line="70" selection-start-column="11" selection-end-line="70" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Autowire.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/RequestMapping.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/Service.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/annotation/RequestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/sax/XmlParseHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1874">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/sax/XmlParseUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/servlet/IndexServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/servlet/HelloWorldServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="23" selection-start-line="23" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/servlet/Servlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/application.properties" />
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/ServletConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="483" column="18" selection-start-line="483" selection-start-column="18" selection-end-line="483" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/reflect/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17600">
-          <caret line="754" column="16" selection-start-line="754" selection-start-column="16" selection-end-line="754" selection-end-column="16" />
-          <folding>
-            <element signature="e#6809#6810#0" expanded="true" />
-            <element signature="e#6836#6837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/tomcat/SocketProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
-          <folding>
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/OutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1250">
-          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/entity/Config.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1487">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/baomidou/ant/sys/mapper/ConfigMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="392" column="13" selection-start-line="392" selection-start-column="13" selection-end-line="392" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/tomcat/util/log/SystemLogHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-          <folding>
-            <element signature="e#3941#3942#0" expanded="true" />
-            <element signature="e#3985#3986#0" expanded="true" />
-            <element signature="e#4022#4023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/juli/AsyncFileHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.13/tomcat-embed-core-9.0.13.jar!/org/apache/juli/OneLineFormatter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-tomcat/src/main/java/com/cosmos/tomcat/CosmosTomcat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#602#603#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/service/TestServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -1096,12 +693,461 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Strategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/AdditionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/SubtrationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/MultiplicationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/DivisionStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/BasicGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/strategy/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-mvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" selection-start-line="14" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cosmos-mvc/src/main/java/com/cosmos/mvc/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="247" column="44" lean-forward="true" selection-start-line="247" selection-start-column="44" selection-end-line="247" selection-end-column="44" />
+        <state relative-caret-position="512">
+          <caret line="157" column="57" selection-start-line="157" selection-start-column="57" selection-end-line="157" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/NullIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/CompositeIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="47" column="55" selection-start-line="47" selection-start-column="55" selection-end-line="47" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/Waitress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="59" selection-end-line="17" selection-end-column="59" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#648#649#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/MenuDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/iterator/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="63" column="83" selection-start-line="63" selection-start-column="83" selection-end-line="63" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#848#849#0" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#742#743#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#1740#1741#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Beverage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+          <folding>
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/BlueMountainCoffee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#260#261#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/CondimentDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/SemiSweet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/BeverageDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Mocha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/decorate/Espressor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ShapeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/ShapeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/Dough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/DoughIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/DoughIngredientFactoryImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/NYPizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/NYThickCrustPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/NYThinCrustPizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/Pizza.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThinCrustDough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/ThickCrustDough.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/MergeSort/Chapter01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-designmode/src/main/java/com/cosmos/design/factory/abstractFactory/PizzaDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/RecMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/NonRecursiveMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="12" column="47" lean-forward="true" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/mergesort/RecursiveMergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/Patition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="143" column="29" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="698">
+          <caret line="536" column="46" lean-forward="true" selection-start-line="536" selection-start-column="46" selection-end-line="536" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cosmos-arithmetic/src/main/java/com/cosmos/sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="e#1358#1359#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1112,10 +1158,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>cosmos-mvc:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1158,7 +1206,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cosmos-mvc</last-edited>
+          <last-edited>cosmos-designmode</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

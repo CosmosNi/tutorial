@@ -80,27 +80,27 @@ public class DispatcherServlet extends HttpServlet {
         //dGet()方法的协议会报错
         //super.doGet(req, resp);
         //解决浏览器乱码问题
-        String respMessage = doDispatcher(req, resp).toString();
         resp.setHeader("Content-type", "text/html;charset=UTF-8");
+        doDispatcher(req, resp);
 
-        resp.getWriter().write(respMessage);
+
     }
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //super.doPost(req, resp);
-        String respMessage = doDispatcher(req, resp).toString();
+        doDispatcher(req, resp);
         resp.setHeader("Content-type", "text/html;charset=UTF-8");
-        resp.getWriter().write(respMessage);
+
     }
 
     /**
      * 处理请求
      */
-    private Object doDispatcher(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+    private void doDispatcher(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         if (handlerMapping.isEmpty()) {
             log.info("没有可映射的url");
-            return "Server Error";
+            resp.getWriter().write("目前没有可用链接");
         }
         //获取请求
         //String url = req.getRequestURI();
@@ -110,8 +110,6 @@ public class DispatcherServlet extends HttpServlet {
         log.info("请求：" + uri);
         if (!handlerMapping.containsKey(uri)) {
             resp.getWriter().write("404 NOT FOUND!");
-            log.info("404 NOT FOUND!");
-            return "404 NOT FOUND!";
         }
         Method method = handlerMapping.get(uri);
         //获取方法的参数列表
@@ -148,21 +146,23 @@ public class DispatcherServlet extends HttpServlet {
             }
         }
         try {
-            //执行方法
-            log.info(controllerMap.get(uri).toString());
-            log.info(paramValues.toString());
+            Object message = null;
             if (paramValues.length == 0) {
-                return method.invoke(controllerMap.get(uri));
+                message = method.invoke(controllerMap.get(uri));
             } else {
-                return method.invoke(controllerMap.get(uri), paramValues);
+                message = method.invoke(controllerMap.get(uri), paramValues);
             }
-
+            if (message == null) {
+                resp.getWriter().write("Success!");
+            } else {
+                resp.getWriter().write(message.toString());
+            }
         } catch (IllegalAccessException e) {
             e.printStackTrace();
         } catch (InvocationTargetException e) {
             e.printStackTrace();
         }
-        return "500!! Server Exception";
+        resp.getWriter().write("500!error");
     }
 
     /**
