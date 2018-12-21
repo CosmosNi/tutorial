@@ -1,0 +1,24 @@
+package rpc;
+
+option java_package = "com.cosmos.rpc";
+option java_outer_classname = "RPCRequestProto";
+
+message RPCRequest{
+    required string requestId = 1;
+    required string className = 2;
+    required string methodName = 3;
+    repeated string parameterTypes = 4;
+    repeated string parameters = 5;
+}
+
+message RPCResponse{
+    required string requestID = 1;
+    required string responseId = 2;
+    required string result = 3;
+    optional bool success = 4;
+    optional string errorMessage = 5;
+}
+
+
+
+

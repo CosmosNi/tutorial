@@ -19,6 +19,9 @@
         <module>cosmos-designmode</module>
         <module>cosmos-springcloud</module>
         <module>cosmos-mvc</module>
+        <module>cosmos-lambda</module>
+        <module>cosmos-rpc</module>
+        <module>cosmos-dubbo</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

@@ -10,10 +10,13 @@
         <module name="comsos-array" />
         <module name="cosmos-arithmetic" />
         <module name="cosmos-designmode" />
+        <module name="cosmos-dubbo" />
         <module name="cosmos-juc" />
         <module name="cosmos-jvm" />
+        <module name="cosmos-lambda" />
         <module name="cosmos-mvc" />
         <module name="cosmos-mybatis-plus" />
+        <module name="cosmos-rpc-client" />
         <module name="cosmos-selenium" />
         <module name="cosmos-springcloud" />
         <module name="cosmos-tomcat" />
@@ -23,11 +26,15 @@
       <module name="comsos-array" target="1.8" />
       <module name="cosmos-arithmetic" target="1.8" />
       <module name="cosmos-designmode" target="1.8" />
+      <module name="cosmos-dubbo" target="1.8" />
       <module name="cosmos-juc" target="6" />
       <module name="cosmos-jvm" target="1.8" />
+      <module name="cosmos-lambda" target="1.8" />
       <module name="cosmos-mvc" target="1.8" />
       <module name="cosmos-mybatis" target="1.8" />
       <module name="cosmos-mybatis-plus" target="1.8" />
+      <module name="cosmos-rpc" target="1.8" />
+      <module name="cosmos-rpc-client" target="1.8" />
       <module name="cosmos-selenium" target="1.8" />
       <module name="cosmos-springcloud" target="1.8" />
       <module name="cosmos-tomcat" target="1.8" />
