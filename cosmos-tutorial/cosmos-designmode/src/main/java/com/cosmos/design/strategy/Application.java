@@ -16,10 +16,10 @@ public class Application {
     public static void main(String[] args) throws InstantiationException, IllegalAccessException {
         int num1 = 100;
         int num2 = 10;
-        People people = new People(new AdditionStrategy());
-        System.out.println("people正在做加法" + people.operation(num1, num2));
+        Calculator calculator = new Calculator(new AdditionStrategy());
+        System.out.println("people正在做加法" + calculator.operation(num1, num2));
 
-        People people2 = new People(new SubtrationStrategy());
-        System.out.println("people2正在做加法" + people2.operation(num1, num2));
+        Calculator calculator2 = new Calculator(new SubtrationStrategy());
+        System.out.println("people2正在做加法" + calculator2.operation(num1, num2));
     }
 }

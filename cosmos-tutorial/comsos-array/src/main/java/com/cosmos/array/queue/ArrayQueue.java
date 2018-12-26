@@ -75,6 +75,7 @@ public class ArrayQueue<T> {
         }
         T t = (T) data[front];
         data[front++] = null;
+        //当头指针等于最大长度时，此时的queue为空
         if (front == maxSize - 1) {
             front = 0;
         }

@@ -22,6 +22,7 @@
         <module>cosmos-lambda</module>
         <module>cosmos-rpc</module>
         <module>cosmos-dubbo</module>
+        <module>cosmos-jdk</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

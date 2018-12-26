@@ -8,9 +8,15 @@ package com.cosmos.design.decorate;
  * @Modified By：
  */
 public abstract class Beverage {
-
+    /**
+     * 饮料描述
+     */
     public String description;
 
+    /**
+     * 价格，此处需要子类具体实现价格
+     * @return
+     */
     public abstract double cost();
 
     public String getDescription() {

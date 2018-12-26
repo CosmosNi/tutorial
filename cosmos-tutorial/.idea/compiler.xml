@@ -11,6 +11,7 @@
         <module name="cosmos-arithmetic" />
         <module name="cosmos-designmode" />
         <module name="cosmos-dubbo" />
+        <module name="cosmos-jdk" />
         <module name="cosmos-juc" />
         <module name="cosmos-jvm" />
         <module name="cosmos-lambda" />
@@ -27,6 +28,7 @@
       <module name="cosmos-arithmetic" target="1.8" />
       <module name="cosmos-designmode" target="1.8" />
       <module name="cosmos-dubbo" target="1.8" />
+      <module name="cosmos-jdk" target="1.8" />
       <module name="cosmos-juc" target="6" />
       <module name="cosmos-jvm" target="1.8" />
       <module name="cosmos-lambda" target="1.8" />
