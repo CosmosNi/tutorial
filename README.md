@@ -1,14 +1,14 @@
 ## 目录
- - [1.cosmos-base](#1.cosmos-base)
+ - [cosmos-base](#cosmos-base)
    - [1.1 JUC常用组件](#1.1 JUC常用组件)
-     - [1.1.1 CountDownLatch闭锁](#1.1.1 CountDownLatch闭锁)
+     - [CountDownLatch闭锁](#CountDownLatch闭锁)
      - [1.1.2 CyclicBarrier同步屏障](#1.1.2 CyclicBarrier同步屏障)
      - [1.1.3 Semaphore计数信号量](#1.1.3 Semaphore计数信号量)
- - [2.cosmo-boot](#2.cosmo-boot)
+ - [cosmo-boot](#cosmo-boot)
    - [2.1 kafka的相关配置](#2.1 kafka的相关配置)
      - [2.1.1 kafka消费者参数](#2.1.1 kafka消费者参数) 
      - [2.1.2 kafka提供者参数](#2.1.2 kafka提供者参数) 
-## 1.cosmos-base
+## cosmos-base
 主要存放jdk的相关基础知识。包括juc，lambda，stream等相关知识。
 
 ### 1.1 JUC常用组件
@@ -32,7 +32,7 @@
 常见的信号量使用即数据库连接池。
 
 
-## 2.cosmo-boot
+## cosmo-boot
 主要是基于springboot+springCloud+Alibaba等框架的一些使用。
 
 ### 2.1 kafka的相关配置
